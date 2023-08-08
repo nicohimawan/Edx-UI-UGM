@@ -11,3 +11,14 @@ LMS sendiri merupakan Learning Management System atau secara sederhana pada fram
 
 CMS (Content Management System) merupakan istilah yang digunakan untuk menggambarkan sistem yang mengelola konten, dalah hal ini CMS mengatur konten pembelajaran yang akan disajikan pada kelas yang ada di framework OpenEdx ini
 
+CSS 
+
+.. image:: https://github.com/nicohimawan/Edx-UI-UGM/blob/main/css.JPG
+
+Default UI tutor 
+
+.. image:: https://github.com/nicohimawan/Edx-UI-UGM/blob/main/tutor%20template.JPG
+
+UI yang diubah 
+
+.. image:: https://github.com/nicohimawan/Edx-UI-UGM/blob/main/ugm.JPG
