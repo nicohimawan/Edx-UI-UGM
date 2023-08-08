@@ -1,65 +1,13 @@
-.. _readme_intro_start:
-
 Tutor: Docker-based Open edX framework untuk E-Learning
 =====================================================================
 
-**Tutor** is the official Docker-based `Open edX <https://openedx.org>`_ distribution, both for production and local development. The goal of Tutor is to make it easy to deploy, customise, upgrade and scale Open edX. Tutor is reliable, fast, extensible, and it is already used to deploy hundreds of Open edX platforms around the world.
+Tutor merupakan 3rd party yang memanfaatkan framework e-learning OpenEdx.
+Pada project ini saya melaukan perubakan UI/UX pada tampilan dasar framework OpenEdx milik tutor.
 
-Do you need professional assistance setting up or managing your Open edX platform? Overhang.IO provides online support as part of its `Long Term Support (LTS) offering <https://overhang.io/tutor/pricing>`__.
+Secara garis besar saya melakukan perubahan pada UI/UX untuk membuat UI/UX dengan branding UGM.
+Perubahan yang dilakukan berupa pembuatan tema pada LMS & CMS tutor.
 
-Features
---------
+LMS sendiri merupakan Learning Management System atau secara sederhana pada framework OpenEdx merupakan portal halaman untuk user mengakses kelas dan setting akun lainnya.
 
-* 100% `open source <https://github.com/overhangio/tutor>`__
-* Runs entirely on Docker
-* World-famous 1-click `installation and upgrades <https://docs.tutor.overhang.io/install.html>`__
-* Comes with batteries included: `theming <https://github.com/overhangio/indigo>`__, `SCORM <https://github.com/overhangio/openedx-scorm-xblock>`__, `HTTPS <https://docs.tutor.overhang.io/configuration.html#ssl-tls-certificates-for-https-access>`__, `web-based administration interface <https://github.com/overhangio/tutor-webui>`__, `mobile app <https://github.com/overhangio/tutor-android>`__, `custom translations <https://docs.tutor.overhang.io/configuration.html#adding-custom-translations>`__...
-* Extensible architecture with `plugins <https://docs.tutor.overhang.io/plugins/index.html>`__
-* Works with `Kubernetes <https://docs.tutor.overhang.io/k8s.html>`__
-* No technical skill required with the `zero-click Tutor AWS image <https://docs.tutor.overhang.io/install.html#zero-click-aws-installation>`__
+CMS (Content Management System) merupakan istilah yang digunakan untuk menggambarkan sistem yang mengelola konten, dalah hal ini CMS mengatur konten pembelajaran yang akan disajikan pada kelas yang ada di framework OpenEdx ini
 
-.. _readme_intro_end:
-
-.. image:: ./docs/img/launch.webp
-    :alt: Tutor local launch
-    :target: https://www.terminalizer.com/view/3a8d55835686
-
-Quickstart
-----------
-
-1. Install the `latest stable release <https://github.com/overhangio/tutor/releases>`_ of Tutor
-2. Run ``tutor local launch``
-3. You're done!
-
-Documentation
--------------
-
-Extensive documentation is available: https://docs.tutor.overhang.io/
-
-Is there a problem?
--------------------
-
-Please follow the instructions from the `troubleshooting section <https://docs.tutor.overhang.io/troubleshooting.html>`__ in the docs.
-
-.. _readme_support_start:
-
-Support
--------
-
-To get community support, go to the official Open edX discussion forum: https://discuss.openedx.org. For official support, please subscribe to a Long Term Support (LTS) license at https://overhang.io/tutor/pricing.
-
-.. _readme_support_end:
-
-.. _readme_contributing_start:
-
-Contributing
-------------
-
-We welcome contributions to Tutor! To learn how you can contribute, please check the relevant section of the Tutor docs: `https://docs.tutor.overhang.io/tutor.html#contributing <https://docs.tutor.overhang.io/tutor.html#contributing>`__.
-
-.. _readme_contributing_end:
-
-License
--------
-
-This work is licensed under the terms of the `GNU Affero General Public License (AGPL) <https://github.com/overhangio/tutor/blob/master/LICENSE.txt>`_.
